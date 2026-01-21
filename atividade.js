@@ -102,8 +102,10 @@
 
 // console.log(comparacaonum);
 
-let texto1 = barcelona;
+let f = "JavaScript";
 
+let tamanho = texto.length;
+let resultado = tamanho > 5;
 
 console.log(resultado);
 
