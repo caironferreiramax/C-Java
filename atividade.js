@@ -61,10 +61,11 @@
 // console.log("Desconto R$:" + (valordesconto));
 // console.log("Valor Final:" + (valorfinal));
 
-// let numero = 20;
-// let sucessor = +1;
-// let antecessor = -1;
+// let numero = 20;         
+// let sucessor = numero + 1;
+// let antecessor = numero - 1;
 
+// console.log(antecessor,numero,sucessor)
 // console.log("O número sucessor é: " + (numero + sucessor));
 // console.log("O número antecessor é: " + (numero + antecessor));
 
@@ -72,7 +73,7 @@
 // let altura = 1.80;
 // let imc = peso / (altura ** 2);
 
-// console.log("O IMC é: " + (imc));
+// console.log("O IMC dessa pessoa é: " + imc);
 
 // let numero = 10;
 // let texto = "10";
@@ -81,12 +82,20 @@
 
 // console.log(comparacao);
 
-// let A = 16;
+// let A = 19;
 // let B = 18;
 
-// let comparacaoID = (A >= B);
+// let comparacaoID = A >= B;
 
-// console.log(comparacaoID);
+// console.log("O resultado comparativo foi: " + comparacaoID);
+
+// let idade = 17;
+// if(idade >= 18) {
+//     console.log("Sim, a sua idade é: " + idade + " anos");
+// }
+// else{
+//     console.log("Não, a sua idade é: " + idade + " anos");
+// }
 
 // let texto1 = "Javascript";
 // let texto2 = "javascript";
@@ -95,6 +104,16 @@
 
 // console.log(comparacaotexto);
 
+// let JavaScript = "Javascript";
+// let javaScript = "javascript";
+
+// if(JavaScript == javaScript){
+//     console.log("Sim, as string são iguais");
+// } else {
+//     console.log("Não, a string são diferentes");
+// }
+
+
 // let num1 = 6;
 // let num2 = 0;
 
@@ -102,14 +121,57 @@
 
 // console.log(comparacaonum);
 
-let f = "JavaScript";
+// let num1 = 6;
+// let num2 = 0;
 
-let tamanho = texto.length;
-let resultado = tamanho > 5;
+// if(num1 <= num2) {
+//     console.log("Sim, esse número é menor ou igual a " + num2)
+// }   else {
+//     console.log("Não, esse número é maior que " + num2 )
+// }
 
-console.log(resultado);
+// let texto = "JavaScript";
+
+// let tamanho = texto.length;
+// let resultado = tamanho > 5;
+
+// console.log(resultado);
+
+// let texto = "JavaScript";
+// let tamanho = texto.length;
+
+// console.log("O tamanho de string: " + tamanho);
+
+// if(tamanho > 5) {
+//     console.log("A string tem mais de 5 caracteres");
+// } else{
+//     console.log("A string tem menos de ou é igual a 5 caracteres");
+// }
 
 
+// let sT = "gameover"
+// if(sT.length > 5){
+//     console.log("Sim, é maior do que 5 :" + sT.length)
+// } else {
+//     console.log("Não, é menor do que 5 : " + sT.length)
+// }
+
+
+// let soma = 5+5;
+// let multi = 2*5;
+
+// let comparacaoresultado = (soma === multi);
+
+// console.log(comparacaoresultado);
+
+// let soma = 5+5;
+// let multi = 2*5;
+
+// if(soma == multi) {
+//     console.log("Os resultados são iguais: " + soma);
+// } else{
+//     console.log("Os resultados são diferentes")
+// }
 
 
 
