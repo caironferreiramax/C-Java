@@ -173,6 +173,87 @@
 //     console.log("Os resultados são diferentes")
 // }
 
+// let saldo = 25.00;
+// let saque = 40.00;
+
+// if(saldo < saque) {
+//     console.log("O Saldo não está disponivel ");
+// }
+//  else{
+//      console.log("O Saldo está disponivel para o saque  ");
+//  }
+
+// let texto = typeof true;
+// let texto2 = typeof "true";
+
+// if(texto === texto2) {
+//     console.log("Sim, são do mesmo tipo ")
+// }   else {
+//     console.log("Não, os tipos são diferentes")
+// }
+
+// let num = 51;
+
+// if(num > 10 && num <= 50) {
+//     console.log("O número está no intervalo entre 10 e 50");
+// }   else {
+//     console.log("O número não está no intervalo entre 10 e 50");
+// }
+
+// let login = "admin";
+// let senha = "1234";
+
+// if(login === "admin" && senha === "1234") {
+//     console.log("O login está autorizado")
+// }   else {
+//     console.log("O login não foi autorizado")
+// }
+
+// let idade = 18
+
+// if(idade >= 18 && idade <= 70) {
+//     console.log("Essa pessoa tem idade para votar")
+// }   else {
+//     console.log("Essa pessoa não tem idade para voltar")
+// }
+
+// let numero = 8
+
+// if( numero % 2 === 0 && numero > 0) {
+//     console.log("Esse número é par e positivo")
+// }   else {
+//     console.log("Esse número é impar")
+// }
+
+// let hoje = "Sábado" 
+
+// if(hoje === "Sábado" || hoje === "Dómingo") {
+//     console.log("Hoje é final de semana")
+// }   else {
+//     console.log("Hoje é dia útil")
+// }
+
+// let estaChovendo = true;
+
+// console.log("Está chovendo: ", !estaChovendo)
+
+
+// let media = 9 
+// let falta = 2
+
+// if(media >= 7 && falta < 10) {
+//     console.log("O aluno(a) está aprovado")
+// } else {
+//     console.log("O aluno está reporvado")
+// }
+
+// let numero = 5
+
+// if(numero !== 0) {
+//     console.log(true)
+// }   else{
+//     console.log(false)
+// }
 
 
 
