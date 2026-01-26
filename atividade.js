@@ -255,5 +255,42 @@
 //     console.log(false)
 // }
 
+// let A = 5
+// let B = 10
+// let temp = A
+
+// A = B
+// B = temp
+
+// console.log("a=", A)
+// console.log("b=", B)
+
+// let A = 5;
+// let B = 10;
+
+// if (A !== B) {
+//   let temp = A;
+//   A = B;
+//   B = temp;
+// }
+
+// console.log("a =", A);
+// console.log("b =", B);
+
+// let lado1 = 4
+// let lado2 = 6
+// let lado3 = 8
+
+// if (
+//   lado1 + lado2 > lado3 &&
+//   lado1 + lado3 > lado2 &&
+//   lado2 + lado3 > lado1
+// ) {
+//   console.log("Os valores formam um triângulo válido.");
+// } else {
+//   console.log("Os valores NÃO formam um triângulo válido.");
+// }
+
+
 
 
