@@ -187,12 +187,12 @@
 // let texto2 = typeof "true";
 
 // if(texto === texto2) {
-//     console.log("Sim, são do mesmo tipo ")
+//     console.log("Sim, são do mesmo tipo")
 // }   else {
 //     console.log("Não, os tipos são diferentes")
 // }
 
-// let num = 51;
+// let num = 32;
 
 // if(num > 10 && num <= 50) {
 //     console.log("O número está no intervalo entre 10 e 50");
@@ -209,9 +209,9 @@
 //     console.log("O login não foi autorizado")
 // }
 
-// let idade = 18
+// let idade = 35
 
-// if(idade >= 18 && idade <= 70) {
+// if(idade > 18 && idade <= 70) {
 //     console.log("Essa pessoa tem idade para votar")
 // }   else {
 //     console.log("Essa pessoa não tem idade para voltar")
@@ -290,6 +290,11 @@
 // } else {
 //   console.log("Os valores NÃO formam um triângulo válido.");
 // }
+
+let idadecachorro = 2
+let idadehumana = idadecachorro * 7
+
+console.log("A idade do seu cachorro é " + idadecachorro + ", mas com idade convertida se torna: " + idadehumana + " anos humanos")
 
 
 
