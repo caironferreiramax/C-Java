@@ -279,22 +279,35 @@
 
 // let lado1 = 4
 // let lado2 = 6
-// let lado3 = 8
+// let base = 8
 
 // if (
-//   lado1 + lado2 > lado3 &&
-//   lado1 + lado3 > lado2 &&
-//   lado2 + lado3 > lado1
+//   lado1 + lado2 > base &&
+//   lado1 + base > lado2 &&
+//   lado2 + base > lado1
 // ) {
 //   console.log("Os valores formam um triângulo válido.");
 // } else {
 //   console.log("Os valores NÃO formam um triângulo válido.");
 // }
 
-let idadecachorro = 2
-let idadehumana = idadecachorro * 7
+// let idadecachorro = 2;
+// let idadehumana = idadecachorro * 7;
 
-console.log("A idade do seu cachorro é " + idadecachorro + ", mas com idade convertida se torna: " + idadehumana + " anos humanos")
+// console.log("A idade do seu cachorro é " + idadecachorro + ", mas com idade convertida se torna: " + idadehumana + " anos humanos");
+
+// let valorcompra = 1000;
+// let parcelas = 5;
+// let juros = 0.02;
+
+// let valorcomjuros = valorcompra * (1 + juros * parcelas);
+// let valorcomparcelas =  valorcomjuros / parcelas;
+
+
+// console.log("Valor total com juros é: " + valorcomjuros);
+// console.log("Valor com parcelas é: " + valorcomparcelas);
+
+
 
 
 
