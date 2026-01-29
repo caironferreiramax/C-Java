@@ -211,7 +211,7 @@
 
 // let idade = 35
 
-// if(idade > 18 && idade <= 70) {
+// if(idade > 18 && idade < 70) {
 //     console.log("Essa pessoa tem idade para votar")
 // }   else {
 //     console.log("Essa pessoa não tem idade para voltar")
@@ -244,12 +244,12 @@
 // if(media >= 7 && falta < 10) {
 //     console.log("O aluno(a) está aprovado")
 // } else {
-//     console.log("O aluno está reporvado")
+//     console.log("O aluno(a) está reporvado")
 // }
 
 // let numero = 5
 
-// if(numero !== 0) {
+// if(numero != 0) {
 //     console.log(true)
 // }   else{
 //     console.log(false)
