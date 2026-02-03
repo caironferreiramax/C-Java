@@ -195,3 +195,199 @@
 //         break
 //     }
 // }
+
+// Questão 8: Conversão de moeda
+// let reais = 100.00;
+// let moeda = "USD";
+// let valorconvertido;
+
+// switch (moeda) {
+//     case "USD": {
+//         console.log(valorconvertido = reais / 5.0);
+//         break;
+//     }
+//     case "EUR": {
+//         console.log(valorconvertido = reais / 6.0);
+//         break;
+//     }
+//     case "GBP": {
+//         console.log(valorconvertido = reais / 7.0);
+//         break;
+//     }
+
+//     default: {
+//         console.log("Moeda desconhecida");
+//         break;
+//     }
+// }
+
+// Questão 8: Conversão de moeda Alternativa
+// let reais = 100.00;
+// let moeda = "GBP";
+// let valorconvertido;
+
+// switch (moeda) {
+//     case "USD": {
+//         console.log(valorconvertido = reais * 0.19);
+//         break;
+//     }
+//     case "EUR": {
+//         console.log(valorconvertido = reais * 0.16);
+//         break;
+//     }
+//     case "GBP": {
+//         console.log(valorconvertido = reais * 0.14);
+//         break;
+//     }
+
+//     default: {
+//         console.log("Moeda desconhecida");
+//         break;
+//     }
+// }
+
+
+// Questão 9: Faixa Etária
+// let categoria = "Adulto"
+
+// switch (categoria) {
+//     case "Criança": {
+//        console.log("Faixa Etária entre 3 a 9 anos");
+//        break;
+//     }
+//     case "Adolescente": {
+//        console.log("Faixa Etária entre 13 a 17 anos");
+//        break;
+//     }
+//     case "Adulto": {
+//        console.log("Faixa Etária entre 18 a 59 anos");
+//        break;
+//     }
+//     case "Idoso": {
+//        console.log("Faixa Etária apartir dos 60 anos");
+//        break;
+//     }
+//     default: {
+//         console.log("Faixa Etária não identificada");
+//         break;
+//     }
+// }
+
+// Questão 10: Pedágio do Veículo
+// let veiculo = "Moto";
+
+// switch (veiculo) {
+//     case "Carro": {
+//         console.log("Esse veículo deve pagar dois pedágios");
+//         break;
+//     }
+//     case "Moto": {
+//         console.log("Esse veículo deve pagar um pedágios");
+//         break;
+//     }
+//     case "Caminhão": {
+//         console.log("Esse veículo deve pagar três pedágios");
+//         break;
+//     }
+//     default: {
+//         console.log("Veículo não identificado");
+//         break;
+//     }
+// }
+
+// Questão 11: Dia útil ou Fim de semana
+// let dia = 8;
+
+// switch (dia) {
+//     case 2: 
+//     case 3:
+//     case 4: 
+//     case 5: 
+//     case 6: {
+//         console.log(dia + " é dia útil ");
+//         break;
+//     }
+//     case 1:
+//     case 7:{
+//         console.log(dia + " é fim de semana");
+//         break;
+//     }
+//     default: {
+//         console.log("Dia desconhecido");
+//         break;
+//     }
+// }
+
+// Questão 12: Status de Pedido
+
+// let pedido = 1;
+
+// switch (pedido) {
+//     case 1: {
+//         console.log("Aguardando");
+//         break;
+//     }
+//     case 2: {
+//         console.log("Enviando");
+//         break;
+//     }
+//     case 3: {
+//         console.log("Entregue");
+//         break;
+//     }
+
+//     default: {
+//         console.log("Status Inválido");
+//         break;
+//     }
+// }
+
+// Questão 13: Bússola
+
+// let direcao = "O";
+
+// switch (direcao) {
+//     case "N": {
+//         console.log("Essa é a direção Norte");
+//         break;
+//     }
+//     case "S": {
+//         console.log("Essa é a direção Sul");
+//         break;
+//     }
+//     case "L": {
+//         console.log("Essa é a direção Leste");
+//         break;
+//     }
+//     case "O": {
+//         console.log("Essa é a direção Oeste");
+//         break;
+//     }
+//     default: {
+//         console.log("Direção não definida")
+//     }
+// }
+
+// Questão 14: Cargo
+
+let cargo = "Admin"
+
+switch (cargo) {
+    case "Admin": {
+        console.log("Esse cargo permite alterar as configurações do sistema, criar/gerenciar usuários e Instalar plugins");
+        break;
+    }
+    case "Editor": {
+        console.log("Esse cargo permite plubicar/excluir posts, editar/fazer comentários");
+        break;
+    }
+    case "Visitante": {
+        console.log("Esse cargo não permite nenhuma alteração");
+        break;
+    }
+
+    default: {
+        console.log("Cargo desconhecido")
+        break;
+    }
+}
