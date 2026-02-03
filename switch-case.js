@@ -133,22 +133,22 @@
 // } 
 
 // Questão 5: Menu de lanchonete
-// let menu = "3";
+// let menu = 3;
 
 // switch (menu) {
-//     case "1": {
+//     case 1: {
 //         console.log("X-Burguer, R$ 12,00");
 //         break;
 //     }
-//     case "2": {
+//     case 2: {
 //         console.log("X-Salada, R$ 8,00");
 //         break;
 //     }
-//     case "3": {
+//     case 3: {
 //         console.log("Batat-Frita, R$ 6,00");
 //         break;
 //     }
-//     case "4": {
+//     case 4: {
 //         console.log("Refrigerante, R$ 7,00");
 //         break;
 //     }
@@ -370,24 +370,72 @@
 
 // Questão 14: Cargo
 
-let cargo = "Admin"
+// let cargo = "Admin"
 
-switch (cargo) {
-    case "Admin": {
-        console.log("Esse cargo permite alterar as configurações do sistema, criar/gerenciar usuários e Instalar plugins");
-        break;
-    }
-    case "Editor": {
-        console.log("Esse cargo permite plubicar/excluir posts, editar/fazer comentários");
-        break;
-    }
-    case "Visitante": {
-        console.log("Esse cargo não permite nenhuma alteração");
-        break;
-    }
+// switch (cargo) {
+//     case "Admin": {
+//         console.log("Esse cargo permite alterar as configurações do sistema, criar/gerenciar usuários e Instalar plugins");
+//         break;
+//     }
+//     case "Editor": {
+//         console.log("Esse cargo permite plubicar/excluir posts, editar/fazer comentários");
+//         break;
+//     }
+//     case "Visitante": {
+//         console.log("Esse cargo não permite nenhuma alteração");
+//         break;
+//     }
 
-    default: {
-        console.log("Cargo desconhecido")
-        break;
-    }
-}
+//     default: {
+//         console.log("Cargo desconhecido")
+//         break;
+//     }
+// }
+
+// Questão 15: Animal
+
+// let animal = "Dragão";
+
+// switch (animal) {
+//     case "Cão": {
+//         console.log("Au Au");
+//         break;
+//     }
+//     case "Gato": {
+//         console.log("Miau");
+//         break;
+//     }
+//     case "Vaca": {
+//         console.log("Muu");
+//         break;
+//     }
+//     case "Ovelha": {
+//         console.log("Méé");
+//         break;
+//     }
+
+//     default: {
+//         console.log("Animal não listado");
+//         break;
+//     }
+// }
+
+// let cor =  "Azul";
+
+// switch (cor) {
+//     case "Vermelho": {
+//         console.log("#FF0000");
+//         break;
+//     }
+//     case "Azul": {
+//         console.log("#0000FF");
+//         break;
+//     }
+//     case "Amarelo": {
+//         console.log("#FFFF00");
+//         break;
+//     }
+//     default: {
+//         console.log("Cor não identificada")
+//     }
+// } 
