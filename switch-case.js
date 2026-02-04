@@ -222,7 +222,7 @@
 // }
 
 // Questão 8: Conversão de moeda Alternativa
-// let reais = 100.00;
+// let reais = 100;
 // let moeda = "GBP";
 // let valorconvertido;
 
@@ -252,11 +252,11 @@
 
 // switch (categoria) {
 //     case "Criança": {
-//        console.log("Faixa Etária entre 3 a 9 anos");
+//        console.log("Faixa Etária entre 0 a 12 anos");
 //        break;
 //     }
 //     case "Adolescente": {
-//        console.log("Faixa Etária entre 13 a 17 anos");
+//        console.log("Faixa Etária entre 12 a 17 anos");
 //        break;
 //     }
 //     case "Adulto": {
@@ -296,7 +296,7 @@
 // }
 
 // Questão 11: Dia útil ou Fim de semana
-// let dia = 8;
+// let dia = 2;
 
 // switch (dia) {
 //     case 2: 
@@ -410,7 +410,7 @@
 //         break;
 //     }
 //     case "Ovelha": {
-//         console.log("Méé");
+//         console.log("Mééé");
 //         break;
 //     }
 
