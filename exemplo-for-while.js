@@ -33,6 +33,12 @@
 //     console.log(i)
 // }
 
+// for (let i = 1; i <= 15; i++) {
+//     if(i % 2 == 1) 
+//     continue;
+//     console.log(i);
+// }
+
 // ATV-04
 // for(let i = 1; i <= 10; i++) {
 //     let resultado = 7 * i;
@@ -45,13 +51,19 @@
 //     console.log(num * i);
 // }
 
-// ATV-05
-// for (let i = 1; i <= 10; i++) {
-//     console.log(i+i);
+// for(let i = 1; i <= 10; i++){
+//     console.log(`7 x ${i} = ${7*i}`);
 // }
 
+// ATV-05
+// let soma = 0;
+// for (let i = 1; i <= 10; i++) {
+//     soma += i;
+// }
+//     console.log("O resultado da soma dos números é: " + soma)
+
 // ATV-06
-// let palavra = "JavaScript";
+// let palavra = "javascript";
 
 // for (let i = 0; i < palavra.length; i++) {
 //     console.log(palavra[i])
@@ -66,45 +78,43 @@
 // for (let i = 0; i <= limite; i+=5) {
 //     console.log("Mutliplicadores são: " + i );
 // }
+
 // ATV-08
 
 // let soma = 0;
 // for (let i = 2; i <= 20; i += 2) {
 //   soma += i;
-//   console.log("O resultado da soma é:", soma);
 // }
+//   console.log("O resultado da soma é:", soma);
+
+// ATV-09
 
 // for (let i = 1; i <= 10; i++) {
 //   let quadrado = i ** 2;
 //   console.log(`O quadrado de ${i} é ${quadrado}`);
 // }
 
+// ATV-10
 
+// let palavra = "**********";
 
+// for (let i = 0; i < palavra.length; i++) {
+//     console.log(palavra[i])
+// }
 
+// let linha = "";
 
+// for(let i = 1; i <= 10; i++) {
+//     linha += "*";
+// }
+// console.log(linha);
 
+// let linha = "";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// for(let i = 0; i <= 10; i++) {
+//     linha += "*";
+// }
+// console.log(linha);
 
 
 
@@ -135,5 +145,32 @@
 //     }
 //     oi--;
 // }   while (oi > 0);
+
+// ATV-01 WHILE
+// let contador = 0;
+
+// while(contador <= 10) {
+//     console.log(contador);
+//     contador++;
+// }
+
+// ATV-02 WHILE
+// let num = 5;
+// while(num <= 100) {
+//     console.log("Esse número é menor que o solicitado")
+//     num++;
+// }
+
+// ATV-03 WHILE
+
+let num = 10;
+while(num > 0) {
+    console.log(num);
+    if(num == 0) {
+        console.log("Lançar!")
+        num--;
+    }
+} 
+
 
 
