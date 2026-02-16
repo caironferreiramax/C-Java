@@ -1,20 +1,70 @@
-// for (let i = 0; i < 5; i++) {
-//     console.log(`Valor de i: ${i}`);
-// }
-
-// let i;
-// for (i = 0; i < 5; i++) {
-
-//     if(i == 3 || i == 4) {
+// principais estruturas de rep
+// for = para(para saber quantas vzs o bloco deve ser executado)
+//while = if
+//do...while = faça enquanto (ser executado pelo menos uma vez independente da condiçao)
+// break = parar o codigo.
+//continue = escolher entre um indice e outro./ignorar
+//foreach = é usado para percorrer arrays.
+//EX:
+// for ( let i = 0 ; i < 5; i++){
+//     // if (i==3 || i ==4){
+//     //     continue;
+//     // }
+//     if (i == 2){
 //         continue;
 //     }
 //     console.log(`Valor de i: ${i}`);
 // }
-//     console.log(`Valor de i: ${i}`);
 
-//  let i;
-//  for (i = 0; i < 5; i++) {
-//     console.log(`Valor de i: ${i}`);
+// let op = 0;
+// while (op == 0){
+//     console.log("brasil");
+//     op = 2;
+// }    
+// // 
+// do{
+//     console.log("brasil2")
+// } while (op==0);
+
+// for + switch case.
+// let i ;
+// for (i = 2 ; i <= 2 ; i++){
+//     switch(i){
+//         case 1:{
+//             console.log("CASO 1");
+//             break;
+//         }
+//         case 2:{
+//             console.log("CASO 2");
+//             break;
+//         }
+//         default:{
+//             console.log("PADRAO");
+//             break;
+//         }
+//     }
+// }
+
+// for + if
+
+// let i;
+// for (i = 0; i <= 3 ; i++){
+//     if (i == 0) continue;
+//     if (i == 1){
+//         console.log("i é igual a 1.");
+//     }else if (i == 2){
+//         console.log("i é igual a 2.");
+//     }else {
+//         console.log("i é 0 ou 3 ou +.");
+//     }
+// }
+//do while EX:
+// let depen = 10;
+// do{
+//     let j == 00;
+//     j+=235;
+//     if( j)
+
 // }
 
 
@@ -156,21 +206,46 @@
 
 // ATV-02 WHILE
 // let num = 5;
-// while(num <= 100) {
+// while(num < 100) {
 //     console.log("Esse número é menor que o solicitado")
 //     num++;
 // }
 
+// let num = 99;
+// while (num < 100){
+//     console.log("digite o numero mais uma vez");
+//     break;
+// }while (num > 100){
+//     continue;
+// }
+
 // ATV-03 WHILE
 
-let num = 10;
-while(num > 0) {
-    console.log(num);
-    if(num == 0) {
-        console.log("Lançar!")
-        num--;
-    }
-} 
+// let num = 10;
+
+// while(num >= 0) {
+//     console.log(num);
+//     num--;
+//     if (num === 0) {
+//         console.log("Lançar!")
+//     }
+// } 
 
 
+// let contador = 10;
+// while (contador >= 0) {
+//     console.log(contador);
+//     contador--;
+// }
 
+// let contador = 10;
+
+// while (contador >= 0) {
+//     console.log(contador);
+
+//     if (contador === 0) {
+//         console.log("Lançar!");
+//     }
+
+//     contador--;
+// }
