@@ -303,12 +303,12 @@
 
 // ATV-08 WHILE
 
-let numero = 1;
+// let numero = 1;
 
-while (numero <= 1000) {
-  console.log(numero);
-  numero *= 2;
-}
+// while (numero <= 1000) {
+//   console.log(numero);
+//   numero *= 2;
+// }
 
 // let numero = 1;
 
@@ -322,5 +322,29 @@ while (numero <= 1000) {
 //   numero *= 2;
 // }
 
-let altura = 1;
-let dia = 1;
+// ATV-09 WHILE
+
+// let altura = 1;
+// let dia = 1;
+
+// while(altura < 15) {
+//     console.log("Dia" dia, "Altura", altura, "cm");
+//     altura+=2;
+//     dia++;
+// }     console.log("Dia", dia, "Altura", altura, "cm");
+
+// ATV-10 WHILE
+
+// let i = 100;
+
+// do {
+//     console.log("Olá Mundo");
+// } while (i < 5);
+
+// let i = 100;
+
+// do {
+//     console.log("Olá Mundo");
+// i++;
+// } while (false);
+
