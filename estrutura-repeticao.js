@@ -252,4 +252,33 @@
 
 // ATV-04 WHILE
 
+// let i = 1;
+// let soma = 0;
+// let quantidade = 5;
 
+// while (i <= quantidade) {
+//   let numero = 1 * 2;
+//   soma += numero;
+//   i++;
+// }
+// let media = soma / quantidade;
+// console.log("Média", media);
+
+// ATV-05 WHILE
+
+// let numero = 51;
+
+// while (numero % 7 !== 0) {
+//   numero++;
+// }
+// console.log("O multiplo de 7 maior que 50 é: ", numero);
+
+// ATV-06 WHILE
+
+// let numeroSorteado = 5;
+
+// while (numeroSorteado !==5) {
+//   numeroSorteado = Math.floor(Math.random()* 10 + 1);
+//   console.log("Onúmero gerado foi: ", numeroSorteado);
+// }
+// console.log("O sorteado foi o número: ", numeroSorteado);
