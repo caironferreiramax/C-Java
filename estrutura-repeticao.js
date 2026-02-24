@@ -282,3 +282,35 @@
 //   console.log("Onúmero gerado foi: ", numeroSorteado);
 // }
 // console.log("O sorteado foi o número: ", numeroSorteado);
+
+// ATV-07 WHILE
+
+// let numero = 1;
+// let soma = 0;
+
+// while (soma <= 50) {
+//   soma += numero;
+//   numero++;
+// }
+// console.log("Soma final:", soma);
+
+// ATV-08 WHILE
+
+// let numero = 1;
+
+// while (numero <= 1000) {
+//   console.log(numero);
+//   numero *= 2;
+// }
+
+// let numero = 1;
+
+// while (true) {
+//   console.log(numero);
+
+//   if (numero > 1000) {
+//     break;
+//   }
+
+//   numero *= 2;
+// }
