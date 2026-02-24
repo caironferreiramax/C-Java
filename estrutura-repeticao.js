@@ -204,18 +204,30 @@
 //     contador++;
 // }
 
+// CORREÇÃO
+
+// let contador = 0;
+// while (contador >= 0) {
+//     console.log(contador);
+
+//     if(contador === 10);
+//         break;
+//         ++contador;
+// }   
+
+
 // ATV-02 WHILE
 // let num = 5;
 // while(num < 100) {
-//     console.log("Esse número é menor que o solicitado")
-//     num++;
+//     console.log("Esse número é menor que o solicitado");
+//     break;
 // }
 
 // let num = 99;
 // while (num < 100){
 //     console.log("digite o numero mais uma vez");
 //     break;
-// }while (num > 100){
+// } while (num > 100){
 //     continue;
 // }
 
@@ -231,23 +243,17 @@
 //     }
 // } 
 
-
-// let contador = 10;
-// while (contador >= 0) {
-//     console.log(contador);
-//     contador--;
-// }
-
+// CORREÇÃO
 // let contador = 10;
 
-// while (contador >= 0) {
-//     console.log(contador);
-
+// while (contador > 0) {
+//     --contador;
+    
 //     if (contador === 0) {
 //         console.log("Lançar!");
-//     }
-
-//     contador--;
+//         break;
+// }
+// console.log(contador)
 // }
 
 // ATV-04 WHILE
@@ -269,10 +275,11 @@
 // let numero = 51;
 
 // while (numero % 7 !== 0) {
-//   numero++;
+//     numero++;
 // }
-// console.log("O multiplo de 7 maior que 50 é: ", numero);
+// console.log("O primeiro multiplo de 7 maior que 50 é: " + numero);
 
+ 
 // ATV-06 WHILE
 
 // let numeroSorteado = 5;
@@ -296,12 +303,12 @@
 
 // ATV-08 WHILE
 
-// let numero = 1;
+let numero = 1;
 
-// while (numero <= 1000) {
-//   console.log(numero);
-//   numero *= 2;
-// }
+while (numero <= 1000) {
+  console.log(numero);
+  numero *= 2;
+}
 
 // let numero = 1;
 
@@ -314,3 +321,6 @@
 
 //   numero *= 2;
 // }
+
+let altura = 1;
+let dia = 1;
