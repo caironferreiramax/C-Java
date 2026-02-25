@@ -16,16 +16,6 @@
 //     console.log(`Valor de i: ${i}`);
 // }
 
-// let op = 0;
-// while (op == 0){
-//     console.log("brasil");
-//     op = 2;
-// }    
-// // 
-// do{
-//     console.log("brasil2")
-// } while (op==0);
-
 // for + switch case.
 // let i ;
 // for (i = 2 ; i <= 2 ; i++){
@@ -59,6 +49,7 @@
 //     }
 // }
 //do while EX:
+
 // let depen = 10;
 // do{
 //     let j == 00;
@@ -270,6 +261,21 @@
 // let media = soma / quantidade;
 // console.log("Média", media);
 
+// CORREÇÃO
+
+// while(true) {
+//     let num1 = 20;
+//     let num2 = 7;
+//     let num3 = 6;
+//     let num4 = 8;
+//     let num5 = 40;
+
+//     media = (num1 + num2 + num3 + num4 + num5) / 2;
+//     break;
+
+// }
+// console.log(media);
+
 // ATV-05 WHILE
 
 // let numero = 51;
@@ -278,6 +284,15 @@
 //     numero++;
 // }
 // console.log("O primeiro multiplo de 7 maior que 50 é: " + numero);
+
+// CORREÇÃO;
+
+// let cont = 0;
+
+// while((cont * 7) < 50){
+//     ++cont;
+// }
+// console.log(cont)
 
  
 // ATV-06 WHILE
@@ -290,6 +305,18 @@
 // }
 // console.log("O sorteado foi o número: ", numeroSorteado);
 
+// CORREÇÃO
+
+// let num = 5;
+// while(true) {
+//     num=Math.floor(Math.random * 10) + 1;
+//     if(num === 5) 
+//         {
+//         console.log("O númeor foi sorteado!!")
+//             break;
+//         }   
+// }
+
 // ATV-07 WHILE
 
 // let numero = 1;
@@ -301,13 +328,23 @@
 // }
 // console.log("Soma final:", soma);
 
+// CORREÇÃO
+
+// let num = 1;
+// let somaTotal = 0;
+// while(somaTotal <= 50) {
+//     somaTotal += num;
+//     ++num;
+// } console.log(somaTotal);
+
+
 // ATV-08 WHILE
 
 // let numero = 1;
-
-// while (numero <= 1000) {
-//   console.log(numero);
-//   numero *= 2;
+//       console.log(numero);
+// while (numero < 1000) {
+//       numero *= 2;
+//       console.log(numero);
 // }
 
 // let numero = 1;
@@ -328,12 +365,23 @@
 // let dia = 1;
 
 // while(altura < 15) {
-//     console.log("Dia" dia, "Altura", altura, "cm");
-//     altura+=2;
+//     console.log("Dia", dia, "Altura", altura, "cm");
+//     altura *=2 ;
 //     dia++;
-// }     console.log("Dia", dia, "Altura", altura, "cm");
+// }   
+// console.log("Dia", dia, "Altura Final:", altura, "cm");
+
 
 // ATV-10 WHILE
+
+// CORREÇÃO
+
+// let cond = false;
+// while(!cond) {
+//     console.log("Olá Mundo!")
+//     cond = true;
+// }
+
 
 // let i = 100;
 
@@ -347,4 +395,19 @@
 //     console.log("Olá Mundo");
 // i++;
 // } while (false);
+
+
+
+// ATIVIDADE DO WHILE
+
+
+let senha;
+
+do{
+    senha = prompt("Digite a senha");
+} while (senha !== "123");
+
+    alert("Acesso liberado!");
+    
+
 
