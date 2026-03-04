@@ -140,7 +140,6 @@
 
 // RECEBA UM MÊS E EXIBA QUAL ESTAÇÃO DO ANO PERTENCE (VERÃO, OUTONO, INVERNO, PRIMAVERA;)
 
-
 // let mes = prompt("Digite um mês do ano");
 
 // switch (mes) {
@@ -173,6 +172,45 @@
 //         alert(`Mês desconhecido`)
 //         break;
 //     }
+// }
+
+// RECEBA DOIS NÚMEROS E UM OPERADOR MATEMATICO, USE O SWITCH CASE
+
+// let num = parseFloat(prompt("Digite o primeiro número"));
+// let num2 = parseFloat(prompt("Digite o segundo número"));
+// let operador = prompt("digite um operador");
+// let resultado;
+
+//     if(isNaN(num) || isNaN(num2)){
+//         alert(`Não realizamos operação com string`);
+//     } else  { 
+
+//         switch (operador) {
+//     case "+":{
+//         resultado = num + num2
+//         alert(`Esse operador ${operador} é de adição, o resultado foi ${resultado}`)
+//         break;
+//     }
+//     case "-":{
+//         resultado = num - num2
+//         alert(`Esse operador ${operador} é de subtração, o resultado foi ${resultado}`)
+//         break;
+//     }
+//     case "*":{
+//         resultado = num * num2
+//         alert(`Esse operador ${operador} é de multiplicação, o resultado foi ${resultado}`)
+//         break;
+//     }
+//     case "/":{
+//         resultado = num / num2
+//         alert(`Esse operador ${operador} é de divisão, o resultado foi ${resultado}`)
+//         break;
+//     }
+//     default:{
+//         alert("Operador desconhecido")
+//         break;
+//     }
+// }
 // }
 
 // RECEBA A IDADE DE UM CACHORRO E CONVERTA PARA "ANOS HUMANOS" (idade * 7), FRASE PERWSONALIZADA
