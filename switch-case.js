@@ -223,7 +223,7 @@
 
 // Questão 8: Conversão de moeda Alternativa
 // let reais = 100;
-// let moeda = "GBP";
+// let moeda = "USD";
 // let valorconvertido;
 
 // switch (moeda) {

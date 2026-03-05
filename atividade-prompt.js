@@ -38,18 +38,13 @@
 //     menu = prompt("Olá, qual o seu pedido?");
 // } alert("Pedido feito!")
 
-
-// Saiba o seu IMC
-// let peso = 80.0;
-// let altura = 1.80;
-// let imc = peso / (altura ** 2);
+// VERIFIQUE O SEU IMC
 
 // let peso = parseFloat(prompt("Digite o seu peso"));
 // let altura = parseFloat(prompt("Digite a sua altura"));
-//     let imc = peso / (altura * altura);
+//     let imc = peso / (altura **2);
 //     alert("O seu imc é: " + imc.toFixed(2));
 
-// console.log("O IMC dessa pessoa é: " + imc);
 
     // let peso = parseFloat(prompt("Digite o seu peso"));
     // let altura = parseFloat(prompt("Digite a sua altura"));
@@ -59,17 +54,17 @@
     // }
     
     // else{
-    //     let imc = peso / (altura * altura);
+    //     let imc = peso / (altura **2);
 
-    //     alert("O seu imc é: " + imc.toFixed(2));
+    //     alert(`O IMC Calculado é: ${imc.toFixed(2)}`);
     // }
 
 // VERIFIQUE SE O SALDO É SUFICIENTE PARA O SAQUE
 
-// let saldo = parseFloat(prompt("Digite o seu saldo!"));
-// let saque = parseFloat(prompt("Digite o quanto deseja sacar!"));
+// let saldo = parseInt(prompt("Digite o seu saldo!"));
+// let saque = parseInt(prompt("Informe o quanto deseja sacar!"));
 
-// if(saldo > saque){
+// if(saldo >= saque){
 //     saldo = saldo - saque;
 //     alert(`Seu saque foi realizado com sucesso`);
 //     alert(`Seu saldo atual é: ${saldo}`);
@@ -88,11 +83,20 @@
 //     alert(`Login realizado com sucesso!`);
 // }
 
+// let login = prompt("Digite o seu nome de usuário");
+// let senha = prompt("Digite a sua senha");
+
+// if(login === "admin" && senha === "1234"){
+//         alert(`Login realizado com sucesso!`);
+//     } else{
+//         alert(`O seu login ou senha está incorreta!`);
+// }
+
 // VERIFIQUE SE HOJE É "SABADO" OU "DOMINGO" (FINAL DE SEMANA)
 
 // let dia = prompt("Digite um dia da semana!");
 
-// if(dia === "Sábado" || dia === "Domingo"){
+// if(dia == "Sábado" || dia == "Domingo"){
 //     alert(`${dia} é final de semana`);
 // } else{
 //     alert(`${dia} é dia útil`);
@@ -131,7 +135,6 @@
 //         alert(`${dia} é Sábado`);
 //         break
 //     }
-
 //     default: {
 //           alert(`Esse dia não existe`);
 //         break
@@ -261,12 +264,56 @@
 
 // CONVERSÃO DE MOEDAS
 
-// let real = parseFloat(prompt("Digite um valor (BRL)"));
-// let dolar = parseFloat(prompt("Digite um valor(USD)"));
-// let conversão = real / dolar;
+// let reais = parseFloat(prompt("Digite o valor (BRL)"));
+// let moeda = prompt("Digite a moeda que você deseja para qual seja convertida");
+// let valorConvertido;
 
-// alert (`O valor convertido é: ${conversão}`);
+// switch (moeda) {
+//     case "USD":{
+//         valorConvertido = reais * 0.19;
+//         alert(`O resultado com a conversão de ${moeda} em reais para USD fica ${valorConvertido}`);
+//         break;
+//     }
+//     case "EUR":{
+//         valorConvertido = reais * 0.16;
+//         alert(`O resultado com a conversão de ${moeda} em reais para EUR fica ${valorConvertido}`);
+//         break;
+//     }
+//     case "GBP":{
+//         valorConvertido = reais * 0.14;
+//         alert(`O resultado com a conversão de ${moeda} em reais para GBP fica ${valorConvertido}`);
+//         break;
+//     }
+//     default:{
+//         alert(`Moeda desconhecida`)
+//         break;
+//     }
+// }
 
+
+// let reais = 100;
+// let moeda = "GBP";
+// let valorconvertido;
+
+// switch (moeda) {
+//     case "USD": {
+//         console.log(valorconvertido = reais * 0.19);
+//         break;
+//     }
+//     case "EUR": {
+//         console.log(valorconvertido = reais * 0.16);
+//         break;
+//     }
+//     case "GBP": {
+//         console.log(valorconvertido = reais * 0.14);
+//         break;
+//     }
+
+//     default: {
+//         console.log("Moeda desconhecida");
+//         break;
+//     }
+// }
 
 // let continuar = true;
 
@@ -277,3 +324,104 @@
 //     continuar = confirm("Deseja inserir uma nova temperatura?");
 // }
 
+
+// let nota = prompt("Digite a nota do Aluno");
+
+// switch (nota) {
+//     case "A":{
+//         alert(`A nota do aluno foi ${nota} = "Excelente"`)
+//         break;
+//     }
+//     case "B":{
+//         alert(`A nota do aluno foi ${nota} = "Bom"`)
+//         break
+//     }
+//     case "C":{
+//         alert(`A nota do aluno foi ${nota} = "Regular"`)
+//         break
+//     }
+//     case "D":{
+//         alert(`A nota do aluno foi ${nota} = "Ruim"`)
+//         break
+//     }
+//     case "F":{
+//         alert(`A nota do aluno foi ${nota} = "Reprovado"`)
+//         break
+//     }
+        
+//     default:{
+//         alert(`Nota desconhecida`)
+//         break;
+//     }
+// }
+
+// let plano = prompt("Escolha o seu plano de assinatura");
+
+// switch (plano) {
+//     case "Bronze":{
+//         alert(`O seu plano secolhido foi ${plano}, o seu plano permite: 200 Mega, Navegação básica, redes sociais e estudos.`)
+//         break;
+//     }
+//     case "Prata":{
+//         alert(`O seu plano secolhido foi ${plano}, o seu plano permite: 500 Mega, Streaming em HD, home office e videochamadas estáveis.`)
+//         break;
+//     }
+//     case "Ouro":{
+//         alert(`O seu plano secolhido foi ${plano}, o seu plano permite: 1 Giga, Jogos online, vídeos em 4K e muitos dispositivos conectados.`)
+//         break;
+//     }
+        
+//     default:{
+//         alert(`Não temos esse plano`)
+//         break;
+//     }
+// }
+
+// let cargo = prompt("Informe o seu cargo")
+
+// switch (cargo) {
+//     case "Admin":{
+//         alert(`Com o cargo de ${cargo} você pode: alterar as configurações do sistema, criar/gerenciar usuários e Instalar plugins`)
+//         break;  
+//     }
+//     case "Editor":{
+//         alert(`Com o cargo de ${cargo} você pode: plubicar/excluir posts, editar/fazer comentários`)
+//         break;  
+//     }
+//     case "Visitante":{
+//         alert(`Com o cargo de ${cargo} você pode: Esse cargo não permite nenhuma alteração`)
+//         break;  
+//     }
+
+//     default:{
+//         alert(`Cargo desconhecido`)
+//         break;
+//     }
+// }
+
+// while(true) {
+//     let num1 = 20;
+//     let num2 = 7;
+//     let num3 = 6;
+//     let num4 = 8;
+//     let num5 = 40;
+
+//     media = (num1 + num2 + num3 + num4 + num5) / 2;
+//     break;
+
+// }
+// console.log(media);
+
+
+while(true) {
+    
+    let nota1 = parseFloat(prompt("Digite uma 1nota"));
+    let nota2 = parseFloat(prompt("Digite uma 2nota"));
+    let nota3 = parseFloat(prompt("Digite uma 3nota"));
+    let nota4 = parseFloat(prompt("Digite uma 4nota"));
+    let nota5 = parseFloat(prompt("Digite uma 5nota"));
+    
+    media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+    break;
+    
+}    alert(`O resultado da média é ${media}`)

@@ -1,5 +1,5 @@
 // principais estruturas de rep
-// for = para(para saber quantas vzs o bloco deve ser executado)
+// for = para(para saber quantas vezes o bloco deve ser executado)
 //while = if
 //do...while = faça enquanto (ser executado pelo menos uma vez independente da condiçao)
 // break = parar o codigo.
@@ -17,23 +17,23 @@
 // }
 
 // for + switch case.
-// let i ;
-// for (i = 2 ; i <= 2 ; i++){
-//     switch(i){
-//         case 1:{
-//             console.log("CASO 1");
-//             break;
-//         }
-//         case 2:{
-//             console.log("CASO 2");
-//             break;
-//         }
-//         default:{
-//             console.log("PADRAO");
-//             break;
-//         }
-//     }
-// }
+let i;
+for (i = 0 ; i <= 2 ; i++){
+    switch(i){
+        case 1:{
+            console.log("CASO 1");
+            break;
+        }
+        case 2:{
+            console.log("CASO 2");
+            break;
+        }
+        default:{
+            console.log("PADRAO");
+            break;
+        }
+    }
+}
 
 // for + if
 
@@ -263,18 +263,18 @@
 
 // CORREÇÃO
 
-// while(true) {
-//     let num1 = 20;
-//     let num2 = 7;
-//     let num3 = 6;
-//     let num4 = 8;
-//     let num5 = 40;
+while(true) {
+    let num1 = 20;
+    let num2 = 7;
+    let num3 = 6;
+    let num4 = 8;
+    let num5 = 40;
 
-//     media = (num1 + num2 + num3 + num4 + num5) / 2;
-//     break;
+    media = (num1 + num2 + num3 + num4 + num5) / 2;
+    break;
 
-// }
-// console.log(media);
+}
+console.log(media);
 
 // ATV-05 WHILE
 
@@ -401,13 +401,13 @@
 // ATIVIDADE DO WHILE
 
 
-let senha;
+// let senha;
 
-do{
-    senha = prompt("Digite a senha");
-} while (senha !== "123");
+// do{
+//     senha = prompt("Digite a senha");
+// } while (senha !== "123");
 
-    alert("Acesso liberado!");
+//     alert("Acesso liberado!");
     
 
 
