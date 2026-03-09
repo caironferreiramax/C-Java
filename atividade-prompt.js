@@ -1,13 +1,5 @@
-// let num = parseInt(prompt("Digite um número:"));
-// console.log(num)
-// while(num < 100 || isNaN(num)){
-    //     alert("Número Inválido!");
-    //     num = parseInt(prompt("Digite um número:"));
-    // }
-    
-    // alert("Parábens!!")
-    
-    //A senha do usuário deve ser "123", faça até ele acertar.
+
+//A senha do usuário deve ser "123", faça até ele acertar.
     
     // let senha = parseInt(prompt("Digite a senha"));
     // while(senha !== 123){
@@ -377,18 +369,18 @@
 //     }
 // }
 
-// let cargo = prompt("Informe o seu cargo")
+// let cargo = prompt("Informe o seu cargo").toLocaleLowerCase();
 
 // switch (cargo) {
-//     case "Admin":{
+//     case "admin":{
 //         alert(`Com o cargo de ${cargo} você pode: alterar as configurações do sistema, criar/gerenciar usuários e Instalar plugins`)
 //         break;  
 //     }
-//     case "Editor":{
+//     case "editor":{
 //         alert(`Com o cargo de ${cargo} você pode: plubicar/excluir posts, editar/fazer comentários`)
 //         break;  
 //     }
-//     case "Visitante":{
+//     case "visitante":{
 //         alert(`Com o cargo de ${cargo} você pode: Esse cargo não permite nenhuma alteração`)
 //         break;  
 //     }
@@ -413,15 +405,42 @@
 // console.log(media);
 
 
-while(true) {
+// while(true) {
     
-    let nota1 = parseFloat(prompt("Digite uma 1nota"));
-    let nota2 = parseFloat(prompt("Digite uma 2nota"));
-    let nota3 = parseFloat(prompt("Digite uma 3nota"));
-    let nota4 = parseFloat(prompt("Digite uma 4nota"));
-    let nota5 = parseFloat(prompt("Digite uma 5nota"));
+//     let nota1 = parseFloat(prompt("Digite uma 1nota"));
+//     let nota2 = parseFloat(prompt("Digite uma 2nota"));
+//     let nota3 = parseFloat(prompt("Digite uma 3nota"));
+//     let nota4 = parseFloat(prompt("Digite uma 4nota"));
+//     let nota5 = parseFloat(prompt("Digite uma 5nota"));
     
-    media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
-    break;
+//     let media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+//     alert(`O resultado da média é ${media}`);
+//     break;
+// }   
+
+// let distancia = parseFloat(prompt("Informe a distância: "));
+// let consumoMédio = parseFloat(prompt("Informe o consumo médio do carro: "));
+// let combustivel = 5.80;
+// let custoTotal = (distancia / consumoMédio) * combustivel; 
+// alert(`O custo Total da distância percorrida é de ${custoTotal.toFixed(2)}`);
+        
+
+// let num = parseInt(prompt("Digite um número:"));
+// console.log(num)
+// while(num < 100 || isNaN(num)){
+    //     alert("Número Inválido!");
+    //     num = parseInt(prompt("Digite um número:"));
+    // }
     
-}    alert(`O resultado da média é ${media}`)
+    // alert("Parábens!!")
+
+// let num = 0.0;
+// do{
+//     num = parseInt(prompt("Digite um número:"));
+// }
+// while(num < 100)
+
+let menuOp= 0;
+do{
+    menuOp = parseInt(prompt("Escolha uma opção: 1-Café 2-Chá 3-Sair"));
+} while (menuOp != 3);
