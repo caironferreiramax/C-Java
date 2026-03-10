@@ -417,7 +417,7 @@
 //     alert(`O resultado da média é ${media}`);
 //     break;
 // }   
-
+ 
 // let distancia = parseFloat(prompt("Informe a distância: "));
 // let consumoMédio = parseFloat(prompt("Informe o consumo médio do carro: "));
 // let combustivel = 5.80;
@@ -440,7 +440,82 @@
 // }
 // while(num < 100)
 
-let menuOp= 0;
-do{
-    menuOp = parseInt(prompt("Escolha uma opção: 1-Café 2-Chá 3-Sair"));
-} while (menuOp != 3);
+// let menuOp= 0;
+// do{
+//     menuOp = parseInt(prompt("Escolha uma opção: 1-Café 2-Chá 3-Sair"));
+// } while (menuOp != 3);
+
+// FUNÇAO
+// BLOCO DE CÓDIGO REUTILIZAVEL
+
+// let a = 2;
+// let b = 4;
+// let a = a+b;
+
+// const soma1 = (a,b) => a+b;
+
+// let c = soma1(2,4);
+// let d = soma1(5,1);
+
+// console.log(a,b);
+// console.log(c,d);
+
+// function soma(a,b){
+//     return a+b;
+// }
+
+// let a = soma(2,4);
+// let b = soma(5,1);
+
+// function soma(a,b)  {
+//     return a+b;
+// }
+
+// function subtracao(a,b) {
+//     return a - b;
+// }
+
+// function multiplicacao(a,b) {
+//     return a * b;
+// }
+
+// function divisao(a,b) {
+//     return a / b;
+// }
+
+// function exponente(a,b) {
+//     return a ** b;
+// }
+
+// function mdoulacao(a,b) {
+//     return a % b;
+// }
+
+// function convertToFahrenheit(c) {
+//     return (c * 9) / 5 + 32;
+// }
+
+
+// const soma1 = (a,b) => a+b;
+// const subtracao1 = (a,b) => a-b;
+// const multiplicacao1 = (a,b) => a*b;
+// const divisao1 = (a,b) => a/b;
+// const exponente1 = (a,b) => a**b;
+// const mdoulacao1 = (a,b) => a%b;
+ 
+// const convertToFahrenheit = (c) => (c * 9) / 5 + 32;
+
+
+
+// function saudarCliente(nome){
+//     return `Olá ${nome}, bem-vindo(a) à nossa empresa!`;
+// }
+// alert(saudarCliente(prompt("Informe o seu nome: ")));
+
+let valorBolo = parseFloat(prompt("Digite o preço do bolo"));
+let pesoBolo = parseFloat(prompt("Digite o peso do bolo"));
+function bolo(a,b){
+
+    return a + b;
+}   
+alert(`O valor total a ser pago é de R$ ${bolo}`);
