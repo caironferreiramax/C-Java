@@ -512,10 +512,59 @@
 // }
 // alert(saudarCliente(prompt("Informe o seu nome: ")));
 
-let valorBolo = parseFloat(prompt("Digite o preço do bolo"));
-let pesoBolo = parseFloat(prompt("Digite o peso do bolo"));
-function bolo(a,b){
 
-    return a + b;
-}   
-alert(`O valor total a ser pago é de R$ ${bolo}`);
+// let a = parseFloat(prompt("Digite o quilo do bolo"));
+// let b = parseFloat(prompt("Digite o peso do bolo"));
+// function bolo(a,b){
+//     return a * b;
+// }   
+// alert("O valor total a ser pago é de R$ " + bolo(a,b));
+
+
+// RECABA UM VALOR EM GRAMAS E CONVERTA PARA KILOS
+
+// let gramas = parseFloat(prompt("Diga um valor em gramas"));
+
+// function convertGrama(gramas){
+//     let kilos = gramas / 1000;
+//     return kilos;
+// }
+
+// let convertido = convertGrama(gramas);
+
+// alert(`O valor em ${gramas} gramas passando para kilos fica ${convertido} kilos`);
+
+
+// RECEBA A quantidadeAtual DO E quantidadeMinima de UM estoque RETORNE SE A ATUAL FOR MENOR QUE A MINIMA
+
+
+
+// function estoque(quantidadeAtual,quantidadeMinima){
+    
+//     if (quantidadeAtual < quantidadeMinima) {
+//         return(`A quantidade ${quantidadeAtual} do estoque está abaixo da quantidade minima de ${quantidadeMinima}`);
+        
+//     } else {
+//         return(`Estoque OK`);
+//     }
+// }
+
+// let quantidadeAtual = parseFloat(prompt("Informe a quatidade atual do estoque"));
+// let quantidadeMinima = parseFloat(prompt("Informe a quatidade minima do estoque"));
+// let resultado = estoque(quantidadeAtual,quantidadeMinima);
+
+// alert(`${resultado}`);
+
+
+// const convertToFahrenheit = (c) => (c * 9) / 5 + 32;
+
+
+// let numero = 8
+
+// if( numero % 2 === 0 && numero > 0) {
+//     console.log("Esse número é par e positivo")
+// }   else {
+//     console.log("Esse número é impar")
+// }
+
+const num = parseFloat(prompt("Digite um número")) = num % 2 === 0;

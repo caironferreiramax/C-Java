@@ -219,13 +219,13 @@
 //     console.log("Essa pessoa não tem idade para voltar")
 // }
 
-// let numero = 8
+let numero = 3
 
-// if( numero % 2 === 0 && numero > 0) {
-//     console.log("Esse número é par e positivo")
-// }   else {
-//     console.log("Esse número é impar")
-// }
+if( numero % 2 === 0) {
+    console.log("Esse número é par")
+}   else {
+    console.log("Esse número é impar")
+}
 
 // let hoje = "Sábado" 
 
