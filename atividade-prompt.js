@@ -538,7 +538,6 @@
 // RECEBA A quantidadeAtual DO E quantidadeMinima de UM estoque RETORNE SE A ATUAL FOR MENOR QUE A MINIMA
 
 
-
 // function estoque(quantidadeAtual,quantidadeMinima){
     
 //     if (quantidadeAtual < quantidadeMinima) {
@@ -559,33 +558,51 @@
 // const convertToFahrenheit = (c) => (c * 9) / 5 + 32;
 
 
-const aplicarDesconto = valor => valor * 0.9;
-
-let preco = parseFloat(prompt("Digite o valor do produto:"));
-
-let valorFinal = aplicarDesconto(preco);
-
-alert(`Valor com desconto: R$ ${valorFinal.toFixed(2)}`);
+// DESCONTO
 
 
+// const aplicarDesconto = valor => valor * 0.9;
 
-const verificarPar = numero => numero % 2 === 0;
+// let preco = parseFloat(prompt("Digite o valor do produto:"));
 
-let num = parseFloat(prompt("Digite um número:"));
+// let valorFinal = aplicarDesconto(preco);
 
-let resultado = verificarPar(num);
+// alert(`Valor com desconto: R$ ${valorFinal.toFixed(2)}`);
 
-alert(`O número é par? ${resultado}`);
+// PAR OU IMPAR
 
 
+// const verificarPar = num => num % 2 === 0;
 
-const calcularArea = (base, altura) => base * altura;
+// let num = parseFloat(prompt("Digite um número:"));
 
-let base = parseFloat(prompt("Digite a base do retângulo:"));
-let altura = parseFloat(prompt("Digite a altura do retângulo:"));
+// let resultado = verificarPar(num);
 
-let area = calcularArea(base, altura);
+// alert(`O número é par? ${resultado}`);
 
-alert(`A área do retângulo é ${area}`);
+
+// RECEBA UMA STRING E RETORNE A MESMA STRING EM LETRAS MAIÚSCULA
+
+// const textoParaMaiuscula = (texto) => texto.toUpperCase();
+
+// let palavra = prompt("Digite uma palavra");
+
+// let conversao = textoParaMaiuscula(palavra)
+
+// alert(`Texto em maiúsculo: ${conversao}`);
+
+
+// ÁREA DO...
+
+
+// const calcularArea = (base, altura) => base * altura;
+
+// let base = parseFloat(prompt("Digite a base do retângulo:"));
+// let altura = parseFloat(prompt("Digite a altura do retângulo:"));
+
+// let area = calcularArea(base, altura);
+
+// alert(`A área do retângulo é ${area}`);
+
 
 

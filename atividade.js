@@ -151,11 +151,11 @@
 // }
 
 
-// let sT = "gameover"
-// if(sT.length > 5){
-//     console.log("Sim, é maior do que 5 :" + sT.length)
+// let texto = "gameover"
+// if(texto.length > 5){
+//     console.log("Sim, é maior do que 5 :" + texto.length)
 // } else {
-//     console.log("Não, é menor do que 5 : " + sT.length)
+//     console.log("Não, é menor do que 5 : " + texto.length)
 // }
 
 
@@ -219,13 +219,13 @@
 //     console.log("Essa pessoa não tem idade para voltar")
 // }
 
-let numero = 3
+// let numero = 3
 
-if( numero % 2 === 0) {
-    console.log("Esse número é par")
-}   else {
-    console.log("Esse número é impar")
-}
+// if( numero % 2 === 0) {
+//     console.log("Esse número é par")
+// }   else {
+//     console.log("Esse número é impar")
+// }
 
 // let hoje = "Sábado" 
 
