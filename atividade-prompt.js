@@ -559,12 +559,33 @@
 // const convertToFahrenheit = (c) => (c * 9) / 5 + 32;
 
 
-// let numero = 8
+const aplicarDesconto = valor => valor * 0.9;
 
-// if( numero % 2 === 0 && numero > 0) {
-//     console.log("Esse número é par e positivo")
-// }   else {
-//     console.log("Esse número é impar")
-// }
+let preco = parseFloat(prompt("Digite o valor do produto:"));
 
-const num = parseFloat(prompt("Digite um número")) = num % 2 === 0;
+let valorFinal = aplicarDesconto(preco);
+
+alert(`Valor com desconto: R$ ${valorFinal.toFixed(2)}`);
+
+
+
+const verificarPar = numero => numero % 2 === 0;
+
+let num = parseFloat(prompt("Digite um número:"));
+
+let resultado = verificarPar(num);
+
+alert(`O número é par? ${resultado}`);
+
+
+
+const calcularArea = (base, altura) => base * altura;
+
+let base = parseFloat(prompt("Digite a base do retângulo:"));
+let altura = parseFloat(prompt("Digite a altura do retângulo:"));
+
+let area = calcularArea(base, altura);
+
+alert(`A área do retângulo é ${area}`);
+
+
