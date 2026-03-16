@@ -513,6 +513,7 @@
 // alert(saudarCliente(prompt("Informe o seu nome: ")));
 
 
+
 // let a = parseFloat(prompt("Digite o quilo do bolo"));
 // let b = parseFloat(prompt("Digite o peso do bolo"));
 // function bolo(a,b){
@@ -520,19 +521,36 @@
 // }   
 // alert("O valor total a ser pago é de R$ " + bolo(a,b));
 
+// CORRIGIDA
+
+// function bolo(precoQuilo, peso){
+//     return precoQuilo * peso;
+// }
+
+// let precoQuilo = parseFloat(prompt("Insira o preço do Quilo do bolo: "))
+// let peso = parseFloat(prompt("Insira o peso do bolo: "));
+// alert("O preço total a ser pago é: " + bolo(precoQuilo,peso));
+
 
 // RECABA UM VALOR EM GRAMAS E CONVERTA PARA KILOS
-
-// let gramas = parseFloat(prompt("Diga um valor em gramas"));
 
 // function convertGrama(gramas){
 //     let kilos = gramas / 1000;
 //     return kilos;
 // }
+// let gramas = parseFloat(prompt("Insira um valor em gramas"));
 
 // let convertido = convertGrama(gramas);
 
-// alert(`O valor em ${gramas} gramas passando para kilos fica ${convertido} kilos`);
+// alert(`O valor em ${gramas}g passando para kilos fica ${convertido}kg`);
+
+// CORRIGIDA
+
+// function ConvertToQuilo (peso){
+//     return peso / 1000;
+// }
+// let peso = parseFloat(prompt("Insira o peso em gramas: "));
+// alert("O peso em kilo é: " + ConvertToQuilo(peso).toFixed(1));
 
 
 // RECEBA A quantidadeAtual DO E quantidadeMinima de UM estoque RETORNE SE A ATUAL FOR MENOR QUE A MINIMA
@@ -555,13 +573,29 @@
 // alert(`${resultado}`);
 
 
+// function estoque(quantidadeAtual,quantidadeMinima){
+    
+//     if (quantidadeAtual < quantidadeMinima) {
+//         return(`A quantidade ${quantidadeAtual} do estoque está abaixo da quantidade minima de ${quantidadeMinima}`);
+        
+//     } else {
+//         return(`Estoque OK`);
+//     }
+// }
+
+// let quantidadeAtual = parseFloat(prompt("Informe a quatidade atual do estoque"));
+// let quantidadeMinima = parseFloat(prompt("Informe a quatidade minima do estoque"));
+// alert(estoque(quantidadeAtual,quantidadeMinima));
+
+
+
 // const convertToFahrenheit = (c) => (c * 9) / 5 + 32;
 
 
 // DESCONTO
 
 
-// const aplicarDesconto = valor => valor * 0.9;
+// const aplicarDesconto = preco => preco * 0.9;
 
 // let preco = parseFloat(prompt("Digite o valor do produto:"));
 
@@ -569,27 +603,38 @@
 
 // alert(`Valor com desconto: R$ ${valorFinal.toFixed(2)}`);
 
+// CORRIGIDA
+
+// const DescontoFidelidade = (preco) => preco * 0.9; 
+// let preco = parseFloat(prompt("Digite o valor do produto:")); 
+// alert(DescontoFidelidade(preco));
+
+
 // PAR OU IMPAR
 
 
-// const verificarPar = num => num % 2 === 0;
-
+// const verificarPar = num => num % 2;
 // let num = parseFloat(prompt("Digite um número:"));
-
 // let resultado = verificarPar(num);
-
 // alert(`O número é par? ${resultado}`);
+
+// const VerificadorParidade = (num) => num % 2;
+// let num1 = parseFloat(prompt("Insira um número para a verificação"))
+// alert(VerificadorParidade(num1));
 
 
 // RECEBA UMA STRING E RETORNE A MESMA STRING EM LETRAS MAIÚSCULA
 
 // const textoParaMaiuscula = (texto) => texto.toUpperCase();
-
 // let palavra = prompt("Digite uma palavra");
-
 // let conversao = textoParaMaiuscula(palavra)
-
 // alert(`Texto em maiúsculo: ${conversao}`);
+
+// CORRIGIDA
+
+// const TextoM = (texto) => texto.toUppercase();
+// let mensagem = prompt("Insira uma palavra");
+// alert(TextoM(mensagem));
 
 
 // ÁREA DO...
@@ -602,7 +647,33 @@
 
 // let area = calcularArea(base, altura);
 
-// alert(`A área do retângulo é ${area}`);
+// alert(`A área do retângulo é: ${area}`);
+
+// CORRIGIDA
+
+// const calcularArea = (base, altura) => base * altura;
+
+// let base = parseFloat(prompt("Digite a base do retângulo:"));
+// let altura = parseFloat(prompt("Digite a altura do retângulo:"));
+
+// alert(calcularArea(base, altura));
+
+// Vetorres, Array
+// O primeiro número é o zero
+
+// let vet = [1, 2, 3,];
+// vet.push(55);
+// vet.pop();
+// vet.unshift("Eae");
+// vet.shift();
+// console.log(vet, vet.length, vet.indexOf(3));
+
+let vet = [1, 2, 3, 4, 5]
+vet.pop();
+vet.unshift();
+console.log(vet);
+
+
 
 
 
