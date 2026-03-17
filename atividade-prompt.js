@@ -664,16 +664,57 @@
 // let vet = [1, 2, 3,];
 // vet.push(55);
 // vet.pop();
-// vet.unshift("Eae");
+// vet.unshift();
 // vet.shift();
 // console.log(vet, vet.length, vet.indexOf(3));
+// 1
+// let vet = [1, 2, 3, 4, 5]
+// vet.pop();
+// vet.unshift();
+// console.log(vet);
 
-let vet = [1, 2, 3, 4, 5]
-vet.pop();
-vet.unshift();
-console.log(vet);
+// 2
+// let vet = [ "vermelho", "verde", "azul"];
+// vet.push("amarelo");
+// alert(vet);
 
+// 3
+// let vet = ["cairon", "douglas", "vitor"];
+// vet.pop();
+// alert(vet);
 
+// 4
+// let vet = [1,2,3,4,5,6,7,8,9,10];
+// alert(vet.length);
 
+// 5
+// let vet = ["Gol","Nissan", "Ford"];
+// vet[1] = "Toyota";
+// console.log(vet);
+
+// 6
+// let vet = [1,2,3,4,5];
+// vet.push(1+1);
+// console.log(vet);
+
+// 7
+
+// let vet = ["chocolate", "maracuja", "flocos"]
+// vet.unshift("baunilha");
+// console.log(vet);
+
+// 8
+// let vet = ["Salvador", "Cerrinha", "São Paulo", "Belo Horizonte"];
+// vet.shift(1);
+// console.log(vet);
+
+// 9
+// let vet = ["banana", "morango", "uva"];
+// console.log(vet.indexOf("banana"));
+
+// 10
+// let vet = ["cachorro", "gato", "urso", "leão"];
+// vet.reverse();
+// console.log(vet);
 
 
