@@ -17,23 +17,23 @@
 // }
 
 // for + switch case.
-let i;
-for (i = 0 ; i <= 2 ; i++){
-    switch(i){
-        case 1:{
-            console.log("CASO 1");
-            break;
-        }
-        case 2:{
-            console.log("CASO 2");
-            break;
-        }
-        default:{
-            console.log("PADRAO");
-            break;
-        }
-    }
-}
+// let i;
+// for (i = 0 ; i <= 2 ; i++){
+//     switch(i){
+//         case 1:{
+//             console.log("CASO 1");
+//             break;
+//         }
+//         case 2:{
+//             console.log("CASO 2");
+//             break;
+//         }
+//         default:{
+//             console.log("PADRAO");
+//             break;
+//         }
+//     }
+// }
 
 // for + if
 
@@ -263,18 +263,18 @@ for (i = 0 ; i <= 2 ; i++){
 
 // CORREÇÃO
 
-while(true) {
-    let num1 = 20;
-    let num2 = 7;
-    let num3 = 6;
-    let num4 = 8;
-    let num5 = 40;
+// while(true) {
+//     let num1 = 20;
+//     let num2 = 7;
+//     let num3 = 6;
+//     let num4 = 8;
+//     let num5 = 40;
 
-    media = (num1 + num2 + num3 + num4 + num5) / 2;
-    break;
+//     media = (num1 + num2 + num3 + num4 + num5) / 2;
+//     break;
 
-}
-console.log(media);
+// }
+// console.log(media);
 
 // ATV-05 WHILE
 

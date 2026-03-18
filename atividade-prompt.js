@@ -717,4 +717,64 @@
 // vet.reverse();
 // console.log(vet);
 
+// 11
 
+// let idade = [1,5,10,14,20];
+
+// for (let i = 0; i < idade.length; i++){
+// console.log("Idade: " + idade[i]);
+// }
+
+// 12
+
+// let precos = [10, 20, 30, 35, 40];
+
+// let somaTotal = 0;
+
+// for (let i = 0; i < precos.length; i++){
+//     somaTotal += precos[i];
+// }
+// console.log("A resultado da soma foi: " + somaTotal.toFixed(2));
+
+// 13
+// let nomes = ["Ana", "Vitor", "Douglas", "Vinicius", "Caio", "Jefferson"];
+
+// let quantidade = 0;
+
+// for (let i = 0; i < nomes.length; i++){
+//     if(nomes[i].length > 5);
+//         quantidade++;
+// }
+// console.log("Os nomes que tem mais de 5 letras: " + quantidade);
+
+// 14
+// let numeros = [10, 30, 49, 50, 51, 60, 65, 70];
+
+
+// for(let i = 0; i < numeros.length; i++){
+//     if(numeros[i] > 50){
+//         console.log(numeros[i]);
+//     }
+// }
+
+// 15
+
+// let numero = [6, 12, 14, 20, 50, 68, 81];
+
+// let maiorValor = numero[0];
+// for(let i = 0; i < numero.length; i++){
+//     if(numero[i] > maiorValor)
+
+//         maiorValor = numero[i]
+// }
+// console.log("Os números inteiros: " + maiorValor);
+
+
+
+let numeros = [2, 4, 5, 9, 12];
+
+for(let i = 0; i < numeros.length; i++){
+    if(numeros[i] * 2){
+    }
+}
+console.log(numeros)
