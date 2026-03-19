@@ -667,6 +667,7 @@
 // vet.unshift();
 // vet.shift();
 // console.log(vet, vet.length, vet.indexOf(3));
+
 // 1
 // let vet = [1, 2, 3, 4, 5]
 // vet.pop();
@@ -679,78 +680,92 @@
 // alert(vet);
 
 // 3
-// let vet = ["cairon", "douglas", "vitor"];
+// let vet = ["Cairon", "Douglas", "Vitor"];
 // vet.pop();
 // alert(vet);
+
+// CORRIGIDA
+
+// let vet = ["Cairon", "Douglas", "Vitor", "Daniel", "Michael"];
+// let removido = vet[vet.length - 1]
+// vet.pop();
+// console.log(vet, removido);
 
 // 4
 // let vet = [1,2,3,4,5,6,7,8,9,10];
 // alert(vet.length);
 
 // 5
-// let vet = ["Gol","Nissan", "Ford"];
-// vet[1] = "Toyota";
-// console.log(vet);
+// let marcas = ["Gol","Nissan", "Ford", "Fiat"];
+// marcas[2] = "Toyota";
+// console.log(marcas);
 
 // 6
-// let vet = [1,2,3,4,5];
-// vet.push(1+1);
-// console.log(vet);
+// let numeros = [10,20,35,48,52];
+// let res = numeros[0] + numeros[numeros.length - 1];
+// console.log(res);
 
 // 7
 
-// let vet = ["chocolate", "maracuja", "flocos"]
-// vet.unshift("baunilha");
-// console.log(vet);
+// let sabores = ["chocolate", "maracuja", "flocos"]
+// sabores.unshift("baunilha");
+// console.log(sabores);
 
 // 8
-// let vet = ["Salvador", "Cerrinha", "São Paulo", "Belo Horizonte"];
-// vet.shift(1);
-// console.log(vet);
+// let cidades = ["Salvador", "São Paulo", "Belo Horizonte"];
+// cidades.shift();
+// console.log(cidades);
 
 // 9
-// let vet = ["banana", "morango", "uva"];
-// console.log(vet.indexOf("banana"));
+// let frutas = ["Banana", "Morango", "Uva"];
+// console.log(frutas.indexOf("Banana"));
+
+// let frutas = ["Banana", "Morango", "Uva", "Acerola", "Laranja"];
+// let res1 = frutas.indexOf("Banana");
+// console.log(res1);
 
 // 10
-// let vet = ["cachorro", "gato", "urso", "leão"];
-// vet.reverse();
-// console.log(vet);
+// let ordem = ["Cachorro", "Gato", "Urso", "Leão", "Jaguatirica"];
+// ordem.reverse();
+// console.log(ordem);
 
 // 11
+// let idade = [1,5,10,14,20, 40, 50, 81];
 
-// let idade = [1,5,10,14,20];
-
-// for (let i = 0; i < idade.length; i++){
-// console.log("Idade: " + idade[i]);
+// for (let i = idade.length-1; i >= 0; i--){
+// console.log(idade[i]);
 // }
 
 // 12
 
-// let precos = [10, 20, 30, 35, 40];
-
-// let somaTotal = 0;
-
+// let precos = [10.99, 20.99, 30.0, 35.50, 80.0];
+// let somaTotal = 0.0;
 // for (let i = 0; i < precos.length; i++){
 //     somaTotal += precos[i];
 // }
 // console.log("A resultado da soma foi: " + somaTotal.toFixed(2));
 
 // 13
-// let nomes = ["Ana", "Vitor", "Douglas", "Vinicius", "Caio", "Jefferson"];
-
+// let nomes = ["Ana", "Vitor", "Douglas", "Vinicius", "Caio", "Jefferson", "Matheus", "Zacarias"];
 // let quantidade = 0;
-
 // for (let i = 0; i < nomes.length; i++){
 //     if(nomes[i].length > 5);
 //         quantidade++;
 // }
 // console.log("Os nomes que tem mais de 5 letras: " + quantidade);
 
+// CORRIGIDA
+
+// let nomes = ["Ana", "Vitor", "Douglas", "Vinicius", "Jefferson", "Matheus", "Zacarias"];
+// let quantidade = 0;
+// for (let i = 0; i < nomes.length - 1; i++){
+//     if(nomes[i].length > 5);
+//         quantidade++;
+// }
+// console.log(quantidade);
+
 // 14
 // let numeros = [10, 30, 49, 50, 51, 60, 65, 70];
-
-
 // for(let i = 0; i < numeros.length; i++){
 //     if(numeros[i] > 50){
 //         console.log(numeros[i]);
@@ -758,25 +773,29 @@
 // }
 
 // 15
-
-// let numero = [6, 12, 14, 20, 50, 68, 81];
+// let numero = [6, 12, 14, 20, 50, 68, 81, 250];
 
 // let maiorValor = numero[0];
 // for(let i = 0; i < numero.length; i++){
 //     if(numero[i] > maiorValor)
-
 //         maiorValor = numero[i]
 // }
-// console.log("Os números inteiros: " + maiorValor);
+// console.log("O maior número:- " + maiorValor);
 
 
-
-// let numeros = [2, 4, 5, 9, 12];
-
+// 16
+// let numeros = [2, 4, 5, 9, 12, 50, 100];
 // let dobro = [];
-
-// for(let i = 0; i < numeros.length; i++){
-//   dobro.push(numeros[i] * 2);
+// for(let i = 0; i < numeros.length - 1; i++){
+//   dobro.push(numeros[i]);
     
 // }
 // console.log(dobro);
+
+let Vetor = [10, 20];
+let Matriz = [
+[10,20],
+[30,40],
+];
+console.log(Matriz);
+
