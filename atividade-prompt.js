@@ -771,10 +771,12 @@
 
 
 
-let numeros = [2, 4, 5, 9, 12];
+// let numeros = [2, 4, 5, 9, 12];
 
-for(let i = 0; i < numeros.length; i++){
-    if(numeros[i] * 2){
-    }
-}
-console.log(numeros)
+// let dobro = [];
+
+// for(let i = 0; i < numeros.length; i++){
+//   dobro.push(numeros[i] * 2);
+    
+// }
+// console.log(dobro);
